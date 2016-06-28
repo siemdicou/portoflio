@@ -1,0 +1,212 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-port {
+    width: 29%;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+#self-img{
+    position: absolute;
+    margin-top: -2.6%;  
+    /*border:solid 10px white;*/
+    /*width: auto;*/
+}
+#self-img img{
+
+
+    border-top:solid 5px white;
+    border-left:solid 5px white;
+    border-right:solid 5px white;
+    border-radius: 40% 40% 1% 1%;
+}
+
+.img-port:hover{
+    opacity: 0.3;
+}
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('http://cache1.asset-cache.net/xd/187867605.jpg?v=1&c=IWSAsset&k=2&d=62CA815BFB1CE4802404F93541F6E302D1DB44E5599D888A4FE5886D74FE70AFEDAE1C8943FA0ADB') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.headline {
+    padding: 120px 0px;
+    text-align: center;
+
+
+}
+
+.headline h1 { 
+    font-size: 40px;
+    color: white;
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.9);*/
+    margin-bottom:8%; 
+    margin-left: -5%;
+}
+
+.headline h2 {
+    font-size: 30px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.featurette-divider {
+    margin: 0px;
+}
+
+.featurette {
+    overflow: hidden;
+    margin: 5% 0%;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+    /*width: 30%;*/
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 30%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
