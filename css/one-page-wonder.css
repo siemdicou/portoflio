@@ -7,43 +7,187 @@
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+.button-git{
+    /*margin: 3%;*/
+    padding: 1% 2%;
+    width: 15%;
+    font-size:20px ; 
+}
+
+.gitub_img{width: 30%;
+    margin-right: 7%; 
+}
+.button-git{
+    /*margin: 3%;*/
+    padding: 1% 2%;
+    /*width: 15%;*/
+    font-size:20px ; 
+    background-color: #615a5a;
+    border-radius:15px;
+    /*display: inline-block;*/
+    color: white;
+}
+
+/*.gitub_img{width: 30%;
+    margin-right: 7%; 
+}*/
+.button-live{
+    border-radius:15px; 
+    margin: 3%;
+    width: 15%;
+    padding: 1% 2%;
+    font-size:20px ;
+}
 
 .img-port {
-    width: 29%;
+    width: 100%;
     display: inline-block;
     margin-left: 3%;
 }
-
-#self-img{
-    position: absolute;
-    margin-top: -2.6%;  
-    /*border:solid 10px white;*/
-    /*width: auto;*/
+#talen img{
+    width: 10%;
 }
-#self-img img{
+.more-info1{
+    height: 85%;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: white;
+    z-index: 99;
+    position: fixed;
+    /*visibility: hidden;*/
+    display: none;
+    -webkit-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    text-align: center;
+    overflow:scroll
 
+}
+.more-info1 p{
+    width: 70%;
+    margin-left:15%;
+    font-size: 20px;
+}
+.infoImg{
+    margin-top: 3%;
+    margin-bottom: 3%;  
+    width: 45%;
+}
+.more-info2{
+    height: 85%;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: white;
+    z-index: 99;
+    position: fixed;
+    /*visibility: hidden;*/
+    display: none;
+    -webkit-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    text-align: center;
+    overflow:scroll
 
-    border-top:solid 5px white;
-    border-left:solid 5px white;
-    border-right:solid 5px white;
-    border-radius: 40% 40% 1% 1%;
+}
+.more-info2 p{
+    width: 70%;
+    margin-left:15%;
+    font-size: 20px;
+}
+.more-info3{
+    height: 85%;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: white;
+    z-index: 99;
+    position: fixed;
+    /*visibility: hidden;*/
+    display: none;
+    -webkit-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
+    text-align: center;
+    overflow:scroll
+
+}
+.more-info1 p{
+    width: 70%;
+    margin-left:15%;
+    font-size: 20px;
+}
+.close-button {
+    font-size: 40px;
+    /*float: right;*/
+    position: fixed;
+    margin-right: 7%; 
+    margin-top: 1%; 
+    right: 0;
+}
+#werken{
+    text-align: center;
+    margin-bottom: 10%; 
+}
+#who{
+    text-align: center;
+}
+.work{
+    /*display: block;*/
+    width: 100%;
+    text-align: center;
+    background: url('../img/background2blur.jpg') no-repeat center center scroll;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 5%;
+    /*padding: 10%;*/
+    /*filter: */
+/*  display: block;
+    width: 100%;
+    text-align: center;
+    background-color:#e5eeff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+*/
+}
+
+.self-img{
+    width: 50%;
+    margin-top: 10%; 
+    margin-bottom: 15%;
+
+}
+.about_text{
+    padding-top: 4%;
+    font-size:18px;
+    font-style:italic;
 }
 
 .img-port:hover{
-    opacity: 0.3;
+    opacity: 0.6;
+    border:solid 3px;
+    border-color: white;
 }
 .header-image {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://cache1.asset-cache.net/xd/187867605.jpg?v=1&c=IWSAsset&k=2&d=62CA815BFB1CE4802404F93541F6E302D1DB44E5599D888A4FE5886D74FE70AFEDAE1C8943FA0ADB') no-repeat center center scroll;
+    background: url('../img/headerImg.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-
+.featurette-image img{
+    width: 10%;
+}
 
 .headline {
     padding: 120px 0px;
@@ -73,24 +217,257 @@ body {
 
 .featurette {
     overflow: hidden;
-    margin: 5% 0%;
+    /*margin: 5% 0%;*/
 }
 
 .featurette-image.pull-left {
-    margin-right: 40px;
+    /*margin-right: 40px;*/
     /*width: 30%;*/
 }
 
 .featurette-image.pull-right {
-    margin-left: 40px;
+    /*margin-left: 40px;*/
 }
 
 .featurette-heading {
     font-size: 50px;
 }
 
+
+#skillButton{
+    margin-top: 30%;
+    background: #3498db;
+    /*width: 40%;*/
+      -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 0px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#skillButton:hover{
+     background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.skillbar{
+    width: 80%;
+    background-color: grey;
+    
+    margin: 2%;
+/*        width: 150px;
+    height: 100px;*/
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+}
+@-webkit-keyframes hide {
+    from {opacity:1;}
+    to {opacity: 0 }
+
+}
+
+.backSkillbar{
+padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+
+}
+
+@-webkit-keyframes skillbarHtml {
+    from {width: 2%;}
+    to {width: 100%}
+}
+
+     /*-webkit-animation-name: skillbar;  Chrome, Safari, Opera */
+    /*-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+.skillHtml{
+    width: 100%;
+    background-color:#3f3a96;
+    visibility: hidden;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;  
+
+}
+.container{
+    /*background-color: red;*/
+}
+
+@-webkit-keyframes skillbarCss {
+    from {width: 2%;}
+    to {width: 80%}
+}
+
+.backSkillbarCss{
+padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+
+}
+
+
+.skillCss{
+    visibility: hidden;
+    width: 80%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@-webkit-keyframes skillbarJava {
+    from {width: 2%;}
+    to {width: 50%}
+}
+
+.backSkillbarJava{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  45%;
+}
+
+.skillJava{
+    visibility: hidden;
+    width: 50%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@-webkit-keyframes skillbarPhp {
+    from {width: 2%;}
+    to {width: 70%}
+}
+
+.backSkillbarPhp{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+}
+
+.skillPhp{
+    visibility: hidden;
+    width: 70%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+/*Skillbar Sql*/
+@-webkit-keyframes skillbarSql {
+    from {width: 2%;}
+    to {width: 78%}
+}
+
+.backSkillbarSql{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+}
+
+.skillSql{
+    visibility: hidden;
+    width: 78%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Ajax */
+@-webkit-keyframes skillbarAjax {
+    from {width: 2%;}
+    to {width: 90%}
+}
+
+.backSkillbarAjax{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+}
+
+.skillAjax{
+    visibility: hidden;
+    width: 90%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+.item {
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+}
+.owl-item{
+    width: 100px;
+}
+#owl-demo .item{
+  /*margin: 3px;*/
+  /*width: 30%;*/
+}
+#owl-demo .item img{
+  /*display: block;*/
+  width: 100%;
+  height: auto;
+}
+
+/*contact*/
+#contact{
+    background-color: blue;
+    width: 100%; 
+    /*position: absolute;*/
+}
+.inputStyle{
+    outline: none;
+}
+.inputs{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.submit{
+    margin-top:2%;
+    margin-bottom:2%; 
+    margin-left: 8%; 
+}
+
 footer {
-    margin: 50px 0;
+    margin: 50px 0 0 0 ;
+    text-align: center;
 }
 
 @media(max-width:1200px) {
