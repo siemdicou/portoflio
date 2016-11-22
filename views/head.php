@@ -14,17 +14,18 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     
-    <script src="js/carousel.js"></script>
-<link href="css/carousel.css" rel="stylesheet">
-<link rel="stylesheet/less" type="text/css" href="carousel.less" />
-<script src="less.js" type="text/javascript"></script>
+    <!-- <script src="js/carousel.js"></script> -->
+<!-- <link href="css/carousel.css" rel="stylesheet"> -->
+<!-- <link rel="stylesheet/less" type="text/css" href="carousel.less" /> -->
+<!-- <script src="less.js" type="text/javascript"></script> -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
-      <link rel="stylesheet" href="css/style.css">
+      <!-- <link rel="stylesheet" href="css/style.css"> -->
 
     <!-- Important Owl stylesheet -->
 

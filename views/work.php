@@ -6,19 +6,19 @@
 
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
-      <link rel="stylesheet" href="../bla/css/style.css">
+      <link rel="stylesheet" href="bla/css/style.css">
 
   
 </head>
 
-  <div class="container work" id="work">
+  <div class=" work" id="work">
   <h1>Use Bootstrap's carousel to show multiple items per slide.</h1>
   <div class="row">
     <div class="col-md-12">
       <div class="carousel slide multi-item-carousel" id="theCarousel">
         <div class="carousel-inner">
           <div class="item active">
-            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/f44336/000000" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="#1"><img src="http://maman-chat.com/wp-content/uploads/2013/09/blabla.jpg" class="img-responsive"></a></div>
           </div>
           <div class="item">
             <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a></div>
@@ -52,5 +52,5 @@
 </div>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-<script src="../bla/js/index.js"></script>
+<script src="bla/js/index.js"></script>
 
