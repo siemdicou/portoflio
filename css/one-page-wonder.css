@@ -3,15 +3,28 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+}
+.betweeenrow {
+    /*height: 0px;*/
+    border: 0.0001px;
+     margin-bottom: 5.5%;
+
+}
+.betweeenrow_2{
+    border: 0.0001px;
+   
+    margin-top: -4%;
 }
 .button-git{
     /*margin: 3%;*/
     padding: 1% 2%;
     width: 15%;
     font-size:20px ; 
+
 }
 
 .gitub_img{width: 30%;
@@ -123,50 +136,7 @@ body {
     margin-bottom: 3%; 
 }
 
-.more-info2{
-    height: 85%;
-    width: 90%;
-    margin-top: 2%;
-    margin-left: 5%;
-    background-color: white;
-    z-index: 99;
-    position: fixed;
-    /*visibility: hidden;*/
-    display: none;
-    -webkit-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
-    text-align: center;
-    overflow:scroll
 
-}
-.more-info2 p{
-    width: 70%;
-    margin-left:15%;
-    font-size: 20px;
-}
-.more-info3{
-    height: 85%;
-    width: 90%;
-    margin-top: 2%;
-    margin-left: 5%;
-    background-color: white;
-    z-index: 99;
-    position: fixed;
-    /*visibility: hidden;*/
-    display: none;
-    -webkit-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 5px 200px rgba(0,0,0,0.75);
-    text-align: center;
-    overflow:scroll
-
-}
-.more-info1 p{
-    width: 70%;
-    margin-left:15%;
-    font-size: 20px;
-}
 .close-button {
     font-size: 40px;
     /*float: right;*/
@@ -181,9 +151,10 @@ body {
 }
 #who{
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-.work{
-    /*display: block;*/
+/*.work{
+
     width: 100%;
     text-align: center;
     background: url('../img/background2blur.jpg') no-repeat center center scroll;
@@ -192,34 +163,93 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    /*padding: 5%;*/
-    /*padding: 10%;*/
-    /*filter: */
-/*  display: block;
-    width: 100%;
-    text-align: center;
-    background-color:#e5eeff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-*/
-}
+    padding: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+}*/
 .workContainer1{
     padding: 3%; 
     /*margin: 1%;*/
 }
 .workContainer{
     /*padding-top: 3%; */
-    margin: 3%;
+    /*margin: 3%;*/
+    width: 100%;
     /*width:50%;*/
 }
 
-.workContainer img{
-    border-radius: 10%; 
-    /*width:60%;*/
-    /*float: left;*/
-   
+.work_container {
+    width: 100%;
+    position:relative;
+    /*background-color: #292626;*/
+}
+.work_item{
+    width: 33.333333%;
+    position: relative;
+    margin: 0;
+    padding-bottom: 5px;
+    display: inline-flex;
+    background-size: cover;
+    height: 260px;
+    margin-right: -4px;
+}
+
+.work_item_text {
+    height: 0%;
+    opacity: 0;
+    width: 100%;
+    position: absolute;    
+    bottom:0;
+    background-color: #292626;
+    text-align: center;
+}
+
+.work_item_text_title {
+    margin-top: 2%;
+    font-size: 20px;
+    color: #E3E3E3;
+}
+.work_item_text_date {
+    font-size: 16px;
+    color: #848282;
+}
+.work_item_alone {
+    margin-left: 33.33333%;
+}
+.work_item_double{
+        margin-left:16.666665%;
+}
+#work_item_1 { 
+
+    background: url('../img/menno_land.png');
+    background-size: cover; 
+}
+
+#work_item_2 { 
+    background: url('../img/rvk_land.png');
+    background-size: cover; 
+}
+
+#work_item_3 { 
+    background: url('../img/acme_land.png');
+    background-size: cover; 
+}
+
+#work_item_4 { 
+    background: url('../img/digitalmap_land.png');
+    background-size: cover; 
+}
+#work_item_5 { 
+    background: url('../img/remon_land.png');
+    background-size: cover; 
+}
+#work_item_6 { 
+    background: url('../img/daley_land.png');
+    background-size: cover; 
+}
+
+#work_item_7 { 
+    background: url('../img/bertdicou_land.png');
+    background-size: cover; 
 }
 
 .workContainer img:hover{
@@ -236,7 +266,7 @@ body {
 .caption {
     position: relative;
     overflow: hidden;
-    width: 80%; 
+    width: 70%; 
     margin-left:10%;
     margin-right: 10%;
     border-radius:10% ;
@@ -322,10 +352,14 @@ body {
     margin-bottom: 15%;
 
 }
+#about{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .about_text{
     padding-top: 4%;
     font-size:18px;
     font-style:italic;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .img-port:hover{
@@ -336,6 +370,7 @@ body {
 .header-image {
     display: block;
     width: 100%;
+        margin-top: -5%;
     text-align: center;
     background: url('../img/headerImg.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -360,14 +395,14 @@ body {
     color: white;
     /*background: #fff;*/
     /*background: rgba(255,255,255,0.9);*/
-    margin-bottom:8%; 
-    margin-left: -5%;
+    /*margin-bottom:8%; */
+    /*margin-left: -5%;*/
 }
 
-.headline h2 {
+.headline h2{
     font-size: 30px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+
+    color: white;
 }
 
 .featurette-divider {
@@ -398,6 +433,13 @@ body {
     padding: 1% 3%;
 }
 
+#skills{
+    /*padding-bottom:2%;*/
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#skills_cont{
+    padding:2%;
+}
 #skillButton{
     margin-top: 30%;
     /*background: #3498db;*/
@@ -439,8 +481,27 @@ body {
 
 }
 
+@-webkit-keyframes show3 {
+    0% {margin-left: -50%;
+        opacity: 0}
+    100%{margin-left: 0%;opacity: 1; }
+
+
+}
+@-webkit-keyframes show4 {
+    0% {opacity: 0}
+100%{opacity: 1; }
+
+}
+
+@-webkit-keyframes show5 {
+    0% {margin-top: -10%;opacity: 0}
+    100%{margin-top: 0%;opacity: 1; }
+
+
+}
 .backSkillbar{
-padding: 0.5%;
+    padding: 0.5%;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -451,13 +512,13 @@ padding: 0.5%;
 
 @-webkit-keyframes skillbarHtml {
     0% {width: 2%;}
-    100%{width: 100%}
+    100%{width: 90%}
 }
 
      /*-webkit-animation-name: skillbar;  Chrome, Safari, Opera */
     /*-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
 .skillHtml{
-    width: 100%;
+    width: 90%;
     background-color:#3f3a96;
     visibility: hidden;
     color: white;
@@ -612,11 +673,37 @@ padding: 0.5%;
 }
 */
 /*contact*/
-#contact{
-    background-color: blue;
-    width: 100%; 
-    /*position: absolute;*/
+.contact{
+    font-family: 'Roboto Condensed', sans-serif;
+ width: 100%;
+    text-align: center;
+    background: url('../img/background2blur.jpg') no-repeat center center scroll;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /*padding: 5%;*/
+    padding: 1%;
+    padding-right: 5%; 
+    /*filter: */
+/*  display: block;
+    width: 100%;
+    text-align: center;
+    background-color:#e5eeff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+*/
 }
+.coontact_footer{
+    padding-top: 500px; 
+    
+    margin-left:   7%;
+    /*width: 70%;*/
+}
+
 .inputStyle{
     outline: none;
 }
@@ -634,6 +721,62 @@ footer {
     margin: 50px 0 0 0 ;
     text-align: center;
 }
+
+.social_buttons_section {
+    width: 60%;
+
+    margin-left:20%;
+    margin-bottom: 3%;
+    /*text-align: center;*/
+}
+
+.social_buttons {
+    width: 30%;
+    position: relative;
+    /*text-align: center;*/
+    display: inline-block;
+}
+.social_buttons a {
+    color: white;
+}
+.social_icon {
+    width: 75px;
+    font-size: 50px;
+    border:2px solid white;
+    border-radius: 50%; 
+    /*margin-left: 39%;*/
+    cursor: pointer;
+    display: inline-block;
+}
+.social_text {
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 15px;
+}
+.contact_fields {
+    text-align: left;
+    margin-left:25%;
+}
+
+.contact_fields_title { 
+    font-size: 30px;
+}
+
+.contact-icons{
+    font-size: 50px;
+    color: white;
+}
+
+.contact-icons a{
+    color: white;
+}
+/*.cd-timeline-content img {
+    width: 30%;
+}*/
+
 
 @media(max-width:1200px) {
     .headline h1 {
@@ -659,8 +802,64 @@ footer {
     .featurette-heading {
         font-size: 35px;
     }
+    
+
+}
+@media  screen and (min-width:900px) and ( max-width:1200px) {
+    .social_text {
+        margin-top: 0px !important;
+    }
+}
+@media  screen and ( max-width:1100px) {
+    .work_item{
+        width: 50%;
+    }
+    .work_item_alone{
+        margin-left:25%;
+    }
+    .work_item_double{
+        margin-left:0%;
+    }
+}
+@media  screen and ( max-width:660px) {
+    .work_item{
+        width: 100%;
+    }
+    .work_item_alone{
+        margin-left:0%;
+    }
+    .work_item_double{
+        margin-left:0%;
+    }
 }
 
+
+@media  screen and (min-width:330px) and ( max-width:900px) {
+    .social_buttons_section {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .social_buttons{
+        width: 100%;
+        margin-bottom: 3%;
+
+    }
+}
+
+@media screen and (min-width:310px) and ( max-width:330px) {
+    .social_buttons_section {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .social_buttons{
+        width: 100%;
+        margin-bottom: 3%;
+
+    }
+    .social_text {
+        font-size: 16px;
+    }
+}
 @media(max-width:991px) {
     .headline h1 {
         font-size: 105px;
@@ -752,3 +951,38 @@ footer {
         margin-left: 0;
     }
 }
+/*.contact_tile{
+    width: 30%;
+    display: inline;
+
+}
+.contact_fields{
+    width: 100%;
+    font-size: 22px;
+    text-align: left;
+}
+.contact_fields a{
+ color: white;
+}
+
+
+.iframe-rwd  {
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.iframe-rwd iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+*/
+
+
+
+
+

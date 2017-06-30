@@ -5,7 +5,7 @@
       <div class="row">
        	<div class="col-md-2"></div>
 	        <div class="featurette col-md-6 about_text" >
-	            Ik ben Siem Dicou, een 3e jaars media developer op het Media College Amsterdam. Ik houd mij voornamelijk bezig met back-end programming. Buiten school werk ik aan externe oprachten. Enkele voorbeelden daarvan staan bij <a href="#work"> mijn werk.</a><br><br>
+	            Ik ben Siem Dicou, een 3e jaars media developer op het Media College Amsterdam. Buiten school werk ik aan externe oprachten. Enkele voorbeelden daarvan staan bij <a href="#work"> mijn werk.</a><br><br>
 
 	            Als hobby's doe ik nog aan volleybal en houd ik er van om lekker een film te kijken.
 	        </div>

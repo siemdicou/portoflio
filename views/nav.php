@@ -10,22 +10,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand page-scroll" href="#home">Home</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">wie ben ik?</a>
+                        <a class= "page-scroll" href="#about">Wie ben ik?</a>
                     </li>
                     <li>
-                        <a href="#work">Mijn werk</a>
+                        <a class= "page-scroll" href="#work">Mijn werk</a>
                     </li>
                     <li>
-                        <a href="#skills">vaardigheden</a>
+                        <a class= "page-scroll" href="#skills">Vaardigheden</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a class= "page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>

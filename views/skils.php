@@ -1,16 +1,23 @@
-<div class="container" id="skills">
+<br /><br />
+<hr id="skills" class="betweeenrow_2"></hr>
+
+<div class="container" id="skills_cont">
+
+
 <h1 class="info_name" id="info_name">Vaardigheden</h1>
-<div class="col-md-4">
+<div class="col-md-1">
+</div>
+<div class="col-md-5">
 	<div id="skillInfo">
 
-	<h3><i class="fa fa-users"></i> samenwerken</h3>
+	<h3><i class="fa fa-users"></i> Samenwerken</h3>
 	<p>Ik vind het leuk om in teamverband te werken</p>
-	<h3>leergierig</h3>
-	<p>asdsajdsadsadsa</p>
-	<h3>blalaslasd</h3>
-	<p>asdsajdsadsadsa</p></div>
+	<h3><i class="fa fa-line-chart" ></i> Leergierig</h3>
+	<p> Ik ben benieuwd naar de nieuwste technieken </p>
+<!-- 	<h3>blalaslasd</h3>
+	<p>asdsajdsadsadsa</p> --></div>
 </div>
-<div class="col-md-8">
+<div class="col-md-6">
 	<div class="skillbar" >
 		<div class="backSkillbar"></div>
 		<div class="skillHtml">HTML</div>
