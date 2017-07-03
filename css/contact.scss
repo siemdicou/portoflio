@@ -1,0 +1,62 @@
+.contact{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    text-align: center;
+    background: url('../img/background2blur.jpg') no-repeat center center scroll;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 1%;
+    padding-right: 5%; 
+    .social_buttons_section {
+        width: 60%;
+        margin-left:20%;
+        margin-bottom: 3%;
+    }
+
+    .social_buttons {
+        width: 30%;
+        position: relative;
+        /*text-align: center;*/
+        display: inline-block;
+    }
+    .social_buttons a {
+        color: white;
+    }
+    .social_icon {
+        width: 75px;
+        font-size: 50px;
+        border:2px solid white;
+        border-radius: 50%; 
+        /*margin-left: 39%;*/
+        cursor: pointer;
+        display: inline-block;
+    }
+    .social_text {
+        line-height: 60px;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 30px;
+        margin-top: -30px;
+        margin-left: 15px;
+    }
+    .contact_fields {
+        text-align: left;
+        margin-left:25%;
+    }
+
+    .contact_fields_title { 
+        font-size: 30px;
+    }
+
+    .contact-icons{
+        font-size: 50px;
+        color: white;
+    }
+
+    .contact-icons a{
+        color: white;
+    }
+}

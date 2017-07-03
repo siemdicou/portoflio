@@ -13,7 +13,7 @@
         <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.0/TweenMax.min.js"></script>
 
-    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/scrolling-nav.css"> <!-- Resource style -->
     <script src="js/modernizr.js"></script>
@@ -22,7 +22,7 @@
     <script src="js/scrolling-nav.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
 
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-        <link href="css/one-page-wonder.css" rel="stylesheet">
+
       <!-- <link rel="stylesheet" href="css/style.css"> -->
 
     <!-- Important Owl stylesheet -->

@@ -1,0 +1,36 @@
+.header-image {
+    display: block;
+    width: 100%;
+        margin-top: -5%;
+    text-align: center;
+    background: url('../img/headerImg.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.featurette-image img{
+    width: 10%;
+}
+
+.headline {
+    padding: 120px 0px;
+    text-align: center;
+}
+
+.headline h1 { 
+    font-size: 40px;
+    color: white;
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.9);*/
+    /*margin-bottom:8%; */
+    /*margin-left: -5%;*/
+}
+
+.headline h2{
+    font-size: 30px;
+
+    color: white;
+}
+

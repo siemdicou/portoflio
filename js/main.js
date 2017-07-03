@@ -91,3 +91,9 @@ function work_animtaion_leave(id_leave) {
 		break;
 	}	
 };
+function open_work_overlay(){
+	TweenMax.to(work_overlay,  .5,       {height:"95vh", ease: Expo.easeInOut });
+}
+function close_work_overlay(){
+	TweenMax.to(work_overlay,  .5,       {height:"0vh", ease: Expo.easeInOut});
+}

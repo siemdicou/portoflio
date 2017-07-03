@@ -1,0 +1,221 @@
+#skills{
+    /*padding-bottom:2%;*/
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#skills_cont{
+    padding:2%;
+}
+#skillButton{
+    margin-top: 30%;
+    /*background: #3498db;*/
+    /*width: 40%;*/
+      -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 0px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#skillButton:hover{
+     /*background: #3cb0fd;*/
+/*  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);*/
+  text-decoration: none;
+}
+.skillbar{
+    width: 80%;
+    background-color: grey;
+    
+    margin: 2%;
+/*        width: 150px;
+    height: 100px;*/
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+}
+@-webkit-keyframes hide {
+    0% {opacity:1;}
+    100%{opacity: 0 }
+
+}
+
+@-webkit-keyframes show3 {
+    0% {margin-left: -50%;
+        opacity: 0}
+    100%{margin-left: 0%;opacity: 1; }
+
+
+}
+@-webkit-keyframes show4 {
+    0% {opacity: 0}
+100%{opacity: 1; }
+
+}
+
+@-webkit-keyframes show5 {
+    0% {margin-top: -10%;opacity: 0}
+    100%{margin-top: 0%;opacity: 1; }
+
+
+}
+.backSkillbar{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+
+}
+
+@-webkit-keyframes skillbarHtml {
+    0% {width: 2%;}
+    100%{width: 90%}
+}
+
+     /*-webkit-animation-name: skillbar;  Chrome, Safari, Opera */
+    /*-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+.skillHtml{
+    width: 90%;
+    background-color:#3f3a96;
+    visibility: hidden;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;  
+
+}
+.container{
+    /*background-color: red;*/
+}
+
+@-webkit-keyframes skillbarCss {
+    0% {width: 2%;}
+    100%{width: 80%}
+}
+
+.backSkillbarCss{
+padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+
+}
+
+
+.skillCss{
+    visibility: hidden;
+    width: 80%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@-webkit-keyframes skillbarJava {
+    0% {width: 2%;}
+    100%{width: 80%}
+}
+
+.backSkillbarJava{
+    padding: 0.5%;
+    color: white;
+
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  45%;
+}
+
+.skillJava{
+    visibility: hidden;
+    width: 80%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@-webkit-keyframes skillbarPhp {
+    0% {width: 2%;}
+    100%{width: 70%}
+}
+
+.backSkillbarPhp{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+}
+
+.skillPhp{
+    visibility: hidden;
+    width: 70%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+/*Skillbar Sql*/
+@-webkit-keyframes skillbarSql {
+    0% {width: 2%;}
+    100%{width: 78%}
+}
+
+.backSkillbarSql{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+}
+
+.skillSql{
+    visibility: hidden;
+    width: 78%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Ajax */
+@-webkit-keyframes skillbarAjax {
+    0% {width: 2%;}
+    100%{width: 90%}
+}
+
+.backSkillbarAjax{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    margin-left:  49%;
+}
+
+.skillAjax{
+    visibility: hidden;
+    width: 90%;
+    background-color:#3f3a96;
+    color: white;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+}

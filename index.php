@@ -11,6 +11,7 @@
     include 'views/header.php'; 
     include 'views/about.php'; 
     include 'views/work3.php'; 
+    include 'views/work_overlay.php'; 
     include 'views/skils.php';
     include 'views/contact.php';
     include 'views/footer.php';

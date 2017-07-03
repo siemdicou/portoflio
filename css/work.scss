@@ -1,0 +1,108 @@
+.work_container {
+    width: 100%;
+    position:relative;
+
+    .work_item {
+        width: 33.333333%;
+        position: relative;
+        margin: 0;
+        padding-bottom: 5px;
+        display: inline-flex;
+        background-size: cover;
+        height: 260px;
+        margin-right: -4px;
+    }
+
+    .work_item_text {
+        height: 0%;
+        opacity: 0;
+        width: 100%;
+        position: absolute;    
+        bottom:0;
+        background-color: #292626;
+        text-align: center;
+    }
+
+    .work_item_text_title {
+        margin-top: 2%;
+        font-size: 20px;
+        color: #E3E3E3;
+    }
+    .work_item_text_date {
+        font-size: 16px;
+        color: #848282;
+    }
+    .work_item_alone {
+        margin-left: 33.33333%;
+    }
+    .work_item_double{
+            margin-left:16.666665%;
+    }
+    #work_item_1 { 
+
+        background: url('../img/menno_land.png');
+        background-size: cover; 
+    }
+
+    #work_item_2 { 
+        background: url('../img/rvk_land.png');
+        background-size: cover; 
+    }
+
+    #work_item_3 { 
+        background: url('../img/acme_land.png');
+        background-size: cover; 
+    }
+
+    #work_item_4 { 
+        background: url('../img/digitalmap_land.png');
+        background-size: cover; 
+    }
+    #work_item_5 { 
+        background: url('../img/remon_land.png');
+        background-size: cover; 
+    }
+    #work_item_6 { 
+        background: url('../img/daley_land.png');
+        background-size: cover; 
+    }
+
+    #work_item_7 { 
+        background: url('../img/bertdicou_land.png');
+        background-size: cover; 
+    }
+}
+
+/*overlay */
+
+#work_overlay {
+    position: fixed;
+    width: 100%;
+    height: 0px;
+    z-index: 33;
+    background-color: lime;
+    bottom: 0;
+    overflow: scroll;
+
+    .work_overlay_header{
+        position: relative;
+        img {
+            height: 50vh;
+            width: 100%;
+        }
+        .header_title {
+            text-align: center;
+            color: white;
+            z-index: 33;
+            font-size: 50px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+
+
+
+

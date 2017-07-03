@@ -1,0 +1,39 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.betweeenrow {
+    /*height: 0px;*/
+    border: 0.0001px;
+     margin-bottom: 5.5%;
+
+}
+.betweeenrow_2{
+    border: 0.0001px;
+   
+    margin-top: -4%;
+}
+
+.cross {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    color: #b1b2b5;
+    font-size: 50px;
+     cursor: pointer;
+}
+.cross:hover{
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.item {
+    /*width: 30%;*/
+    margin: 0px;
+    padding: 0px;
+}
