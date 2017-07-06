@@ -22,6 +22,7 @@
     .featurette-heading {
         font-size: 35px;
     }
+
 }
 @media  screen and (min-width:900px) and ( max-width:1200px) {
     .social_text {
@@ -42,6 +43,12 @@
     }
     
 }
+@media  screen and ( min-width:767px) {
+    .mobile_show {
+        display: none;
+    }
+}
+
 @media  screen and ( max-width:660px) {
     .work_container {
         .work_item{

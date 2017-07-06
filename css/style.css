@@ -18,17 +18,9 @@ body {
   border: 0.0001px;
   margin-top: -4%; }
 
-.cross {
-  position: absolute;
-  top: 3%;
-  right: 3%;
-  color: #b1b2b5;
-  font-size: 50px;
-  cursor: pointer; }
-
-.cross:hover {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
-
+/*.cross {
+   
+}*/
 .item {
   /*width: 30%;*/
   margin: 0px;
@@ -140,22 +132,185 @@ body {
   position: fixed;
   width: 100%;
   height: 0px;
-  z-index: 33;
-  background-color: lime;
+  z-index: 3333;
+  background-color: white;
+  color: black;
   bottom: 0;
   overflow: scroll; }
   #work_overlay .work_overlay_header {
     position: relative; }
     #work_overlay .work_overlay_header img {
-      height: 50vh;
+      height: 30vh;
       width: 100%; }
     #work_overlay .work_overlay_header .header_title {
       text-align: center;
-      color: white;
       z-index: 33;
       font-size: 50px;
       font-weight: bold; }
+  #work_overlay .work_overlay_body {
+    width: 60%;
+    margin-left: 20%;
+    /*        .responive_wrap {
+                position: absolute;
+                left: -65px;
+            }*/
+    /*desktop iframe*/ }
+    #work_overlay .work_overlay_body .tekst {
+      text-align: center;
+      color: black;
+      width: 60%;
+      margin-left: 20%; }
+    #work_overlay .work_overlay_body img {
+      width: 80%;
+      margin-left: 10%; }
+    #work_overlay .work_overlay_body .wrap_background {
+      width: 700px;
+      /* z-index: 333; */
+      position: absolute;
+      background-color: lime;
+      /*height: 192px;*/ }
+      #work_overlay .work_overlay_body .wrap_background img {
+        position: absolute; }
+      #work_overlay .work_overlay_body .wrap_background .desktop {
+        z-index: 1;
+        width: 100%; }
+      #work_overlay .work_overlay_body .wrap_background .tablet {
+        top: 187px;
+        left: 10px;
+        width: 316px;
+        z-index: 3; }
+      #work_overlay .work_overlay_body .wrap_background .mobile {
+        top: 338px;
+        left: 324px;
+        width: 144px;
+        z-index: 3; }
+      #work_overlay .work_overlay_body .wrap_background .mobile_down {
+        top: 444px;
+        left: 470px;
+        width: 280px;
+        z-index: 3; }
+    #work_overlay .work_overlay_body .wrap_desktop {
+      /*width: 320px;
+      height: 192px;
+      padding: 0;
+      overflow: hidden;
+      position: absolute;*/
+      position: absolute;
+      width: 577px;
+      height: 320px;
+      padding: 0;
+      overflow: hidden;
+      margin-top: 29px;
+      margin-left: 157px;
+      z-index: 2; }
+    #work_overlay .work_overlay_body .frame_desktop {
+      width: 1280px;
+      height: 786px;
+      border: 0;
+      -ms-transform: scale(0.4509);
+      -moz-transform: scale(0.4509);
+      -o-transform: scale(0.4509);
+      -webkit-transform: scale(0.4509);
+      transform: scale(0.4509);
+      -ms-transform-origin: 0 0;
+      -moz-transform-origin: 0 0;
+      -o-transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0; }
+    #work_overlay .work_overlay_body .wrap_tablet {
+      /*width: 320px;
+      height: 192px;
+      padding: 0;
+      overflow: hidden;
+      position: absolute;*/
+      position: absolute;
+      width: 235px;
+      height: 445px;
+      z-index: 3;
+      padding: 0;
+      overflow: hidden;
+      margin-top: 218.5px;
+      margin-left: 118px; }
+    #work_overlay .work_overlay_body .frame_tablet {
+      width: 653px;
+      height: 1024px;
+      border: 0;
+      -ms-transform: scale(0.36);
+      -moz-transform: scale(0.36);
+      -o-transform: scale(0.36);
+      -webkit-transform: scale(0.36);
+      transform: scale(0.36);
+      -ms-transform-origin: 0 0;
+      -moz-transform-origin: 0 0;
+      -o-transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0; }
+    #work_overlay .work_overlay_body .wrap_mobile {
+      position: absolute;
+      width: 122px;
+      height: 183px;
+      z-index: 3;
+      padding: 0;
+      overflow: hidden;
+      margin-top: 387.5px;
+      margin-left: 406px; }
+    #work_overlay .work_overlay_body .frame_mobile {
+      width: 320px;
+      height: 480px;
+      border: 0;
+      -ms-transform: scale(0.39);
+      -moz-transform: scale(0.39);
+      -o-transform: scale(0.39);
+      -webkit-transform: scale(0.39);
+      transform: scale(0.39);
+      -ms-transform-origin: 0 0;
+      -moz-transform-origin: 0 0;
+      -o-transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0; }
+    #work_overlay .work_overlay_body .wrap_mobile_down {
+      position: absolute;
+      width: 183px;
+      height: 320px;
+      z-index: 3;
+      padding: 0;
+      overflow: hidden;
+      margin-top: 456px;
+      margin-left: 588px; }
+    #work_overlay .work_overlay_body .frame_mobile_down {
+      width: 482px;
+      height: 320px;
+      border: 0;
+      -ms-transform: scale(0.38);
+      -moz-transform: scale(0.38);
+      -o-transform: scale(0.38);
+      -webkit-transform: scale(0.38);
+      transform: scale(0.38);
+      -ms-transform-origin: 0 0;
+      -moz-transform-origin: 0 0;
+      -o-transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0; }
+  #work_overlay .sectio_close_button_work_overlay {
+    text-align: center;
+    display: none; }
+    #work_overlay .sectio_close_button_work_overlay .close_button_work_overlay {
+      color: black;
+      font-size: 24px;
+      /*width: 6%;*/
+      text-align: center;
+      margin: 5% 0;
+      z-index: 33;
+      cursor: pointer; }
+      #work_overlay .sectio_close_button_work_overlay .close_button_work_overlay:hover {
+        border: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
 
+@media screen and (min-width: 767px) {
+  .mobile_show {
+    display: none; } }
+@media screen and (max-width: 767px) {
+  .mobile_hidden {
+    display: none; } }
 #skills {
   /*padding-bottom:2%;*/
   font-family: 'Roboto Condensed', sans-serif; }
@@ -441,6 +596,9 @@ footer {
     margin-left: 25%; }
   .work_container .work_item_double {
     margin-left: 0%; } }
+@media screen and (min-width: 767px) {
+  .mobile_show {
+    display: none; } }
 @media screen and (max-width: 660px) {
   .work_container .work_item {
     width: 100%; }

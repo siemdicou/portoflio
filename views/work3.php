@@ -36,12 +36,14 @@
 				<div class="work_item_text_date">Februari 2015</div>
 			</div>
 		</div>
+		<a href="#overlay" onclick="open_work_overlay(1)">
 		<div class="work_item" id="work_item_2" onmouseenter="work_animtaion_enter(2)" onmouseleave="work_animtaion_leave(2)">
 			<div class="work_item_text" id="work_item_text_2">
 				<div class="work_item_text_title">Raad van Kerken Hoorn</div>
 				<div class="work_item_text_date">september 2014</div>
 			</div>
 		</div>
+		</a>
 		<a href="#overlay" onclick="open_work_overlay(1)">
 			<div class="work_item work_item_alone" id="work_item_1" onmouseenter="work_animtaion_enter(1)" onmouseleave="work_animtaion_leave(1)">
 				<div class="work_item_text" id="work_item_text_1">
