@@ -30,7 +30,8 @@
 </html>
 <script src="bla/js/index.js"></script>
 <script type="text/javascript">
-    $.fn.isVisible = function() {
+
+$.fn.isVisible = function() {
     var rect = this[0].getBoundingClientRect();
     return (
         (rect.height > 0 || rect.width > 0) &&

@@ -99,6 +99,7 @@
             font-weight: bold;
         }
     }
+
     .work_overlay_body {
         width: 60%;
         margin-left: 20%;
@@ -114,17 +115,19 @@
             width: 80%;
             margin-left: 10%;
         }
-/*        .responive_wrap {
+
+        .responive_wrap {
             position: absolute;
-            left: -65px;
-        }*/
+            left: calc((100% - 700px) /2);
+            img {
+                margin-left: 0% !important;
+            }
+        }
 
         .wrap_background {
             width: 700px;
-                /* z-index: 333; */
             position: absolute;
             background-color: lime;
-            /*height: 192px;*/
             
             img {
                 position:absolute ;
@@ -166,7 +169,7 @@
             padding: 0;
             overflow: hidden;
             margin-top: 29px;
-            margin-left: 157px;
+            margin-left: 87px;
             z-index: 2;
         }
 
@@ -202,7 +205,7 @@
             padding: 0;
             overflow: hidden;
             margin-top: 218.5px;
-            margin-left: 118px;
+            margin-left: 48px;
 
         }
         .frame_tablet {
@@ -231,8 +234,8 @@
             z-index: 3;
             padding: 0;
             overflow: hidden;
-            margin-top: 387.5px;
-            margin-left: 406px;
+            margin-top: 386.5px;
+            margin-left: 336px;
         }
 
         .frame_mobile {
@@ -261,8 +264,7 @@
             padding: 0;
             overflow: hidden;
             margin-top: 456px;
-            margin-left: 588px;
-
+            margin-left: 518px;
         }
 
         .frame_mobile_down {
@@ -283,13 +285,22 @@
             transform-origin: 0 0;
         }  
     }
-    .sectio_close_button_work_overlay{
-        text-align: center;
+    .work_overlay_hidden {
         display: none;
+    }
+
+    .work_overlay_show {
+        display: block;
+    }
+
+
+    .section_close_button_work_overlay{
+        text-align: center;
+        margin-top: 620px;
         .close_button_work_overlay {
             color: black;
             font-size: 24px; 
-            /*width: 6%;*/
+            width: 100px;
             text-align: center;
             margin: 5% 0;
             z-index: 33;
@@ -308,6 +319,13 @@
 @media  screen and ( max-width:767px) {
     .mobile_hidden {
         display: none;
+    }
+    .work_overlay_body {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+    .section_close_button_work_overlay {
+        margin-top: 0 !important;
     }
 }
 

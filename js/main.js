@@ -24,6 +24,7 @@ jQuery(document).ready(function($){
 		});
 	}
 });
+
 // $(".work_item").addEventListener("hover", function() {
    
 // }, false)
@@ -91,9 +92,19 @@ function work_animtaion_leave(id_leave) {
 		break;
 	}	
 };
-function open_work_overlay(){
-	TweenMax.to(work_overlay,  .5,       {height:"100vh", ease: Expo.easeInOut });
+var current_overlay =  "";
+function open_work_overlay(id) {
+	
+	TweenMax.to(work_overlay,  .5,       {height:"100vh", ease: Expo.easeInOut, oncomplete:function(){
+		setTimeout(function(){
+			var url = $('#work_overlay_'+id).attr('data-iframe-url');
+			$('#work_overlay_' + id + ' iframe').attr('src',url);
+			$('#work_overlay_'+id).addClass('work_overlay_show');
+		}, 500);
+	} });
+	current_overlay = id;
 }
-function close_work_overlay(){
+function close_work_overlay() {
+	$('#work_overlay_'+current_overlay).removeClass('work_overlay_show');
 	TweenMax.to(work_overlay,  .5,       {height:"0vh", ease: Expo.easeInOut});
 }
